@@ -92,7 +92,7 @@ const PostPage = () => {
             >
               {post?.imgUrl && (
                 <img
-                  src={`http://localhost:8000/${post.imgUrl}`}
+                  src={`https://mern-musicblog.herokuapp.com/${post.imgUrl}`}
                   alt="img"
                   className="object-cover w-full"
                 />

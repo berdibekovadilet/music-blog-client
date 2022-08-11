@@ -14,7 +14,7 @@ const MainPage = () => {
 
   if (!posts.length) {
     return (
-      <div className="text-xl text-center py-10">Постов не существует.</div>
+      <div className="text-xl text-center py-10">Загрузка...</div>
     );
   }
 
